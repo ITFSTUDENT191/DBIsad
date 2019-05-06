@@ -10,7 +10,7 @@ $p_quantity = $_POST['p_quantity'];
 $cat_id = $_POST['cat_id'];
 $p_descript = $_POST['p_descript'];
 
-$sql = "insert into product values ('"$p_code"','"$p_name"','"$p_price"','"$w_id"','"$p_quantity"','"$cat_id"','"$p_descript"')";
+$sql = "INSERT INTO product(p_code,p_name,p_price,w_id,p_quantity,cat_id,p_descript) values ('$p_code','$p_name','$p_price','$w_id','$p_quantity','$cat_id','$p_descript')";
 $result = $conn->query($sql);
 echo "Add product Success";
 
