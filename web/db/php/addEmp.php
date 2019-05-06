@@ -11,5 +11,6 @@
 	Name : <input type="text" name="emp_name"><br>
 	Position :<input type="text" name="role"><br>
 	<input type="submit" value="submit">
+	</form>
 </body>
 </html>

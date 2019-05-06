@@ -20,5 +20,6 @@
 	Category: <input type="text" name="cat_id" value="___">
 		<br>
 	Descipt: <input type="text" name="p_descript" value="___">
+	</form>
 </body>
 </html>

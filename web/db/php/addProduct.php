@@ -35,5 +35,6 @@
 		Descipt: <input type="text" name="p_descript" value="___">
 		<br>
 		<input type="submit" value="ok">
+		</form>
 </body>
 </html>

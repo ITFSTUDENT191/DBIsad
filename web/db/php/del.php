@@ -9,5 +9,6 @@
 	Employee Id: <input type="text" name="emp_id">
 	<br><br>
 	<input type="submit" value="ok">
+	</form>
 </body>
 </html>
