@@ -5,12 +5,14 @@
 </head>
 <body>
 	<form action="addp.php" method="POST">
-		Product Code : <input type="text" name="p_code" value="_____">
+		Product Code : <input type="text" name="p_code" value="">
 		<br>
 		<h1>ProductDetail</h1>
-		Name : <input type="text" name="p_name" value="___">
+		Name : <input type="text" name="p_name" value="">
 		<br>
-		Price : <input type="text" name="p_price" value="___">
+		Price : <input type="text" name="p_price" value="">
+		<br>
+		Value : <input type="text" name="p_quantity" value="">
 		<br>
 		Zone : <select name= "l_id">
 			  <option value="1">1</option>
@@ -32,7 +34,7 @@
 			</select>
 
 		<br>
-		Descipt: <input type="text" name="p_descript" value="___">
+		Descipt: <input type="text" name="p_descript" value="">
 		<br>
 		<input type="submit" value="ok">
 		</form>
