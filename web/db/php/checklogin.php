@@ -1,5 +1,8 @@
 <?php
-include 'connectDB.php';
+function conn(){
+		$conn = new mysqli("localhost", "root","", "stock");
+		return $conn;
+	}
 
 
 $username = $_POST['username'];

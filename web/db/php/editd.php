@@ -1,6 +1,9 @@
 <?php
 session_start();
-include 'connectDB.php';
+function conn(){
+		$conn = new mysqli("localhost", "root","", "stock");
+		return $conn;
+	}
 $user_id = $_POST['user_id'];
 $user_pass = $_POST['user_pass'];
 $emp_name = $_POST['emp_name'];
