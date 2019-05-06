@@ -5,6 +5,7 @@
 	</title>
 </head>
 <body>
+	<form action="add.php" method="POST">
 	Username : <input type="text" name="user_id"><br>
 	Password : <input type="password" name="user_pass"><br>
 	Name : <input type="text" name="emp_name"><br>
