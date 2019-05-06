@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <body>
-	<form action="del.php" method="POST">
+	<form action="dele.php" method="POST">
 	<h1>Delete Emp</h1>
 	Employee Id: <input type="text" name="emp_id">
 	<br><br>

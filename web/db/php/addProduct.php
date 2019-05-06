@@ -12,19 +12,23 @@
 		<br>
 		Price : <input type="text" name="p_price" value="___">
 		<br>
-		Zone : <select>
-			  <option value="a">A</option>
-			  <option value="b">B</option>
-			  <option value="c">C</option>
-			  <option value="d" selected>D</option>
+		Zone : <select name= "w_id">
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			  <option value="4">4</option>
+			  <option value="5">5</option>
+			  <option value="6">6</option>
 			</select>
 
 		<br>
-		Category: <select>
-			  <option value="food">อาหาร</option>
-			  <option value="drink">เครื่องดื่ม/option>
-			  <option value="stuff">ของใช้ทั่วไป</option>
-			  <option value="electronics" selected>เครื่องใช้ไฟฟ้า</option>
+		Category: <select name="cat_id">
+
+			  <option value="1">ของใช้ทั่วไป</option>
+			  <option value="2">อุปกรณ์</option>
+			  <option value="3">ยา</option>
+			  <option value="4" selected>อาหาร</option>
+			  <option value="5" selected>ของเล่น</option>
 			</select>
 
 		<br>
