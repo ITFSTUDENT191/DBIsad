@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <body>
-	<form action="add.php" method="POST">
+	<form action="addp.php" method="POST">
 		Product Code : <input type="text" name="p_code" value="_____">
 		<br>
 		<h1>ProductDetail</h1>
