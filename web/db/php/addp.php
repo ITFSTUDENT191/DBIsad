@@ -1,5 +1,8 @@
 <?php
-include 'connectDB.php';
+function conn(){
+		$conn = new mysqli("localhost", "root","", "stock");
+		return $conn;
+	}
 
 
 $p_code = $_POST['p_code'];
