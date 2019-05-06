@@ -1,20 +1,24 @@
 <?php
 include 'connectDB.php';
 
+
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$sql = "SELECT * FROM member WHERE username='".$username."' AND password='".$password."'";
+$sql = "SELECT role FROM employees WHERE username='".$username."' AND password='".$password."'";
 $result = $conn->query($sql);
 	if ($result->num_rows > 0) {
-		while($row = $result->fetch_assoc()) {
-			$uid = $row["uid"];
-			$username = $row["username"];
-			$coin = $row["coin"];
+		if ($result == 'Manager') {
+			header( "location: Manager_page.html" );
 		}
-		header( "location: http://www.ireallyhost.com" );
- exit(0);
-		
+		else if ($result == 'Fronted') {
+			header( "location: Fronted_page.html" );
+		}
+		else
+		{
+			header( "location: Backend_page.html" );
+		}
+				
 	} else {
 		echo "something error";
 	}
