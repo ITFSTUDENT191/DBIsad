@@ -12,14 +12,14 @@ $sql = "SELECT role FROM employees WHERE user_id='$username' AND user_pass='$pas
 $result = $conn->query($sql);
 	if ($result->num_rows > 0) {
 		if ($result == 'Manager') {
-			header( "location: Manager_page.html" );
+			header( "location: Manager_page.php" );
 		}
 		else if ($result == 'Fronted') {
-			header( "location: Fronted_page.html" );
+			header( "location: Fronted_page.php" );
 		}
 		else
 		{
-			header( "location: Backend_page.html" );
+			header( "location: Backend_page.php" );
 		}
 				
 	} else {
